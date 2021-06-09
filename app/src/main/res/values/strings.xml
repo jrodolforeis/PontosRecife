@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">PontosRecife</string>
+    <string name="inicio">Início</string>
+    <string name="placeholder">missingContent</string>
+    <string name="about">About us</string>
 </resources>

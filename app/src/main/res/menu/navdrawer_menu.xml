@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/titleFragment"
+            android:title="@string/inicio" />
+        <!-- android:icon="@drawable/ic_home" -->
+        <item
+            android:id="@+id/viloesFragment"
+            android:title="@string/placeholder" />
+        <!-- android:icon="@drawable/villain_icon_15" -->
+        <item
+            android:id="@+id/filmesFragment"
+            android:title="@string/placeholder" />
+            <!-- android:icon="@drawable/ic_movie" -->
+    </group>
+</menu>

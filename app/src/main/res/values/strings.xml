@@ -2,5 +2,12 @@
     <string name="app_name">PontosRecife</string>
     <string name="inicio">Início</string>
     <string name="placeholder">missingContent</string>
+
     <string name="about">About us</string>
+    <string name="my_sal">What I do?</string>
+    <string name="gleice_description">Computer Science student at Unicap. Blockchain and IoT researcher and intern test Engineering at Liferay.</string>
+    <string name="gleice_name">Gleice Lisbino</string>
+    <string name="gleice_fun">TEST ENGINNERING</string>
+    <string name="simple_hello">Hello</string>
+    <string name="do_todo">TODO</string>
 </resources>

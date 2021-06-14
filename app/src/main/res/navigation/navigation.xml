@@ -14,4 +14,24 @@
         android:name="com.example.pontosrecife.AboutUsFragment"
         android:label="@string/about"
         tools:layout="@layout/fragment_about_us" />
+    <fragment
+        android:id="@+id/rodolfoFragment"
+        android:name="com.example.pontosrecife.RodolfoFragment"
+        android:label="fragment_rodolfo"
+        tools:layout="@layout/fragment_rodolfo" />
+    <fragment
+        android:id="@+id/joaoFragment"
+        android:name="com.example.pontosrecife.JoaoFragment"
+        android:label="fragment_joao"
+        tools:layout="@layout/fragment_joao" />
+    <fragment
+        android:id="@+id/aboutUsAllFragment"
+        android:name="com.example.pontosrecife.AboutUsAllFragment"
+        android:label="fragment_about_us_all"
+        tools:layout="@layout/fragment_about_us_all" />
+    <fragment
+        android:id="@+id/faqFragment2"
+        android:name="com.example.pontosrecife.FaqFragment"
+        android:label="fragment_faq"
+        tools:layout="@layout/fragment_faq" />
 </navigation>

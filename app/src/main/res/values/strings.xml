@@ -11,4 +11,31 @@
     <string name="simple_hello">Hello</string>
     <string name="do_todo">TODO</string>
     <string name="projeto">Sobre o projeto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rodolfo_description">Pesquisador PIBIC @unicap e monitor da cadeira de Linguagens Formais</string>
+    <string name="rodonfo_fun">BACK-END DEVELOPER</string>
+    <string name="rodolfo_name">José Rodolfo</string>
+    <string name="joao_description">Pesquisador PIBIC @unicap</string>
+    <string name="joao_name">FRONT-END DEVELOPER</string>
+    <string name="joao_fun">João Tavares</string>
+    <string name="todo">TODO</string>
+    <string name="large_text">
+
+        Q. Quais tecnologias foram utilizadas para o desenvolvimento do site?
+        A: O site foi desenvolvido utilizando as seguintes tecnologias:
+
+        HTML\n\n
+        CSS\n\n
+        Bootstrap 4 (pra deixar o site bonitinho)
+        JavaScript (pra adicionar comportamentos ao site)
+
+        Q. Qual o objetivo do site?
+        A: Além de passar na cadeira, o objetivo é que o site pareça/seja um mockup de um guia turístico.
+        Ao clicar em cada card se abre um modal, responsável por mostrar informações sobre aquele ponto de maneira resumida. Caso o usuário deseje obter mais informações, dentro do próprio modal existe uma seção com mais referências.
+        Além disso, o usuário pode ver se data na qual ele vai viajar pra Recife é feriado ou não e acompanhar notícias relevantes sobre a cidade.
+
+
+
+    </string>
 </resources>

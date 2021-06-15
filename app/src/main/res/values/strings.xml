@@ -1,9 +1,17 @@
 <resources>
     <string name="app_name">PontosRecife</string>
     <string name="inicio">Início</string>
+    <string name="explorar">Explorar</string>
+    <string name="seguinte">Seguinte</string>
+    <string name="ler_mais">Ler Mais</string>
+    <string name="moeda">Rua da Moeda</string>
+    <string name="marco">Marco Zero</string>
+    <string name="praia">Praia de Boa Viagem</string>
+    <string name="brennand">Instituto Ricardo Brennand</string>
+    <string name="centro">Centro de Artesanato de Pernambuco</string>
     <string name="placeholder">missingContent</string>
-
-    <string name="about">About us</string>
+    <string name="inicio_desc">Conheça alguns dos pontos turísticos mais famosos da cidade</string>
+    <string name="about">About Us</string>
     <string name="my_sal">What I do?</string>
     <string name="gleice_description">Computer Science student at Unicap. Blockchain and IoT researcher and intern test Engineering at Liferay.</string>
     <string name="gleice_name">Gleice Lisbino</string>
@@ -11,7 +19,7 @@
     <string name="simple_hello">Hello</string>
     <string name="do_todo">TODO</string>
     <string name="faq">FAQ</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="contato">Contato</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="rodolfo_description">Pesquisador PIBIC @unicap e monitor da cadeira de Linguagens Formais</string>
     <string name="rodolfo_fun">BACK-END DEVELOPER</string>
@@ -38,4 +46,5 @@
 
 
     </string>
+    <string name="about_us_title">Conheça nossa equipe</string>
 </resources>

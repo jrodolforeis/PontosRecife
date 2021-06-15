@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <dimen name="button_padding">16dp</dimen>
+    <dimen name="button_text_size">15sp</dimen>
+    <dimen name="titulo">24sp</dimen>
+    <dimen name="texto_corrido">17sp</dimen>
+    <dimen name="top_margin">20dp</dimen>
     <dimen name="horizontal_margin">12dp</dimen>
-    <dimen name="text_margin">16dp</dimen>
     <dimen name="img_button_width">80dp</dimen>
     <dimen name="img_button_height">80dp</dimen>
 </resources>

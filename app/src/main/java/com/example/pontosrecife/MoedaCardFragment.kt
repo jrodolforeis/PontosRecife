@@ -6,7 +6,7 @@ import androidx.fragment.app.Fragment
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
-import com.example.pontosrecife.databinding.FragmentTitleBinding
+import com.example.pontosrecife.databinding.FragmentMoedaCardBinding
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -14,20 +14,16 @@ private const val ARG_PARAM2 = "param2"
 /**
  * Classe responsável pelo comportamento do fragment_title
  */
-class TitleFragment : Fragment() {
+class MoedaCardFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = DataBindingUtil.inflate<FragmentTitleBinding>(
+        val binding = DataBindingUtil.inflate<FragmentMoedaCardBinding>(
             inflater,
-            R.layout.fragment_title, container, false
+            R.layout.fragment_moeda_card, container, false
         )
-
-        binding.button.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.action_titleFragment_to_moedaIntroFragment)
-        }
 
         setHasOptionsMenu(true)
         return binding.root

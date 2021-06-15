@@ -8,8 +8,8 @@
             android:title="@string/inicio" />
         <!-- android:icon="@drawable/ic_home" -->
         <item
-            android:id="@+id/viloesFragment"
-            android:title="@string/placeholder" />
+            android:id="@+id/aboutUsFragment"
+            android:title="@string/about" />
         <!-- android:icon="@drawable/villain_icon_15" -->
         <item
             android:id="@+id/filmesFragment"

@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id "org.jetbrains.kotlin.kapt"
+    id "androidx.navigation.safeargs.kotlin"
+
 }
 
 android {
@@ -34,9 +36,9 @@ android {
     }
     buildFeatures {
         dataBinding true
+        viewBinding true
     }
 }
-
 dependencies {
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
@@ -54,4 +56,7 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     implementation "androidx.multidex:multidex:$multidex_version"
+
 }
+
+

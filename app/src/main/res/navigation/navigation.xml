@@ -122,4 +122,31 @@
             android:id="@+id/action_praiaIntroFragment_to_marcoIntroFragment"
             app:destination="@id/marcoIntroFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/contatoFragment2"
+        android:name="com.example.pontosrecife.ContatoFragment"
+        android:label="ContatoFragment" >
+        <argument
+            android:name="tituloMensagem"
+            app:argType="string"
+            android:defaultValue="@null"
+            app:nullable="true" />
+        <argument
+            android:name="TextoMensagem"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <argument
+            android:name="TipoContato"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+        <action
+            android:id="@+id/action_contatoFragment2_to_confirmacaoFragment"
+            app:destination="@id/confirmacaoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/confirmacaoFragment"
+        android:name="com.example.pontosrecife.ConfirmacaoFragment"
+        android:label="ConfirmacaoFragment" />
 </navigation>

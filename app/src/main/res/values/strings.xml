@@ -10,11 +10,11 @@
     <string name="gleice_fun">TEST ENGINNERING</string>
     <string name="simple_hello">Hello</string>
     <string name="do_todo">TODO</string>
-    <string name="projeto">Sobre o projeto</string>
+    <string name="faq">FAQ</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="rodolfo_description">Pesquisador PIBIC @unicap e monitor da cadeira de Linguagens Formais</string>
-    <string name="rodonfo_fun">BACK-END DEVELOPER</string>
+    <string name="rodolfo_fun">BACK-END DEVELOPER</string>
     <string name="rodolfo_name">José Rodolfo</string>
     <string name="joao_description">Pesquisador PIBIC @unicap</string>
     <string name="joao_name">FRONT-END DEVELOPER</string>

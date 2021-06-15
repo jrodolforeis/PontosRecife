@@ -2,6 +2,6 @@ package com.example.pontosrecife
 
 import androidx.lifecycle.ViewModel
 
-class AboutUsViewModel : ViewModel() {
+class GleiceViewModel : ViewModel() {
     // TODO: Implement the ViewModel
 }

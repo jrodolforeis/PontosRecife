@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.android.navigation.TitleFragment">
+    xmlns:tools="http://schemas.android.com/tools" >
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/titleConstraint"
@@ -31,9 +30,8 @@
 
                 <TextView
                     android:id="@+id/titulo"
-                    style="@style/texto_padrao"
-                    android:text="@string/praia_sobre"
-                    android:textSize="@dimen/titulo" />
+                    style="@style/titulo"
+                    android:text="@string/praia_sobre" />
                 <TextView
                     style="@style/texto_padrao"
                     android:text="@string/praia_p1"/>

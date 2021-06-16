@@ -31,9 +31,8 @@
 
                 <TextView
                     android:id="@+id/titulo"
-                    style="@style/texto_padrao"
-                    android:text="@string/brennand_sobre"
-                    android:textSize="@dimen/titulo" />
+                    style="@style/titulo"
+                    android:text="@string/brennand_sobre" />
                 <TextView
                     style="@style/texto_padrao"
                     android:text="@string/brennand_p1"/>

@@ -31,9 +31,8 @@
 
                 <TextView
                     android:id="@+id/titulo"
-                    style="@style/texto_padrao"
-                    android:text="@string/centro"
-                    android:textSize="@dimen/titulo" />
+                    style="@style/titulo"
+                    android:text="@string/centro" />
 
                 <ImageView
                     android:id="@+id/banner"

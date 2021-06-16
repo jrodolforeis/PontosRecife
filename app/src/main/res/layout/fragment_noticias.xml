@@ -29,9 +29,8 @@
                 app:layout_constraintRight_toRightOf="parent">
                 <TextView
                     android:id="@+id/header"
-                    style="@style/texto_padrao"
+                    style="@style/titulo"
                     android:text="@string/noticias_desc"
-                    android:textSize="@dimen/titulo"
                     app:layout_constraintHorizontal_bias="0.5" />
                 <TextView
                     android:id="@+id/link1"

@@ -5,7 +5,10 @@
     <dimen name="titulo">24sp</dimen>
     <dimen name="texto_corrido">17sp</dimen>
     <dimen name="top_margin">20dp</dimen>
+    <dimen name="triple_top_margin">60dp</dimen>
     <dimen name="horizontal_margin">12dp</dimen>
-    <dimen name="img_button_width">80dp</dimen>
-    <dimen name="img_button_height">80dp</dimen>
+    <dimen name="img_button_width">100dp</dimen>
+    <dimen name="img_button_height">100dp</dimen>
+    <dimen name="img_perfil_width">150dp</dimen>
+    <dimen name="img_perfil_height">150dp</dimen>
 </resources>

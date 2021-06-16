@@ -31,9 +31,8 @@
 
                 <TextView
                     android:id="@+id/titulo"
-                    style="@style/texto_padrao"
-                    android:text="@string/app_name"
-                    android:textSize="@dimen/titulo" />
+                    style="@style/titulo"
+                    android:text="@string/app_name" />
 
                 <ImageView
                     android:id="@+id/banner"

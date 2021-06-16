@@ -30,9 +30,8 @@
 
                 <TextView
                     android:id="@+id/header"
-                    style="@style/texto_padrao"
+                    style="@style/titulo"
                     android:text="@string/noticia3"
-                    android:textSize="@dimen/titulo"
                     app:layout_constraintHorizontal_bias="0.5" />
                 <TextView
                     android:id="@+id/sub"

@@ -31,9 +31,8 @@
 
                 <TextView
                     android:id="@+id/titulo"
-                    style="@style/texto_padrao"
-                    android:text="@string/moeda"
-                    android:textSize="@dimen/titulo" />
+                    style="@style/titulo"
+                    android:text="@string/moeda" />
 
                 <ImageView
                     android:id="@+id/banner"

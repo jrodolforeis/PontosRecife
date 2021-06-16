@@ -1,119 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:background="@color/teal_700"
-android:drawingCacheQuality="auto"
-tools:context=".GleiceFrament"
-android:filterTouchesWhenObscured="false">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
 
-    <TextView
-        android:id="@+id/textView14"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_marginTop="100dp"
-        android:background="@android:color/white"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
-        tools:visibility="visible" />
+        android:layout_height="match_parent">
 
-<TextView
-    android:id="@+id/textView13"
-    android:layout_width="348dp"
-    android:layout_height="76dp"
-    android:layout_marginStart="15dp"
-    android:layout_marginEnd="15dp"
-    android:layout_marginBottom="76dp"
-    android:fontFamily="cursive"
-    android:text="@string/gleice_description"
-    android:textColor="@android:color/black"
-    android:textSize="20sp"
-    android:textStyle="bold"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent" />
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/top_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-<TextView
-    android:id="@+id/textView2"
-    android:layout_width="145dp"
-    android:layout_height="48dp"
-    android:layout_marginStart="130dp"
-    android:layout_marginTop="1dp"
-    android:layout_marginEnd="130dp"
-    android:fontFamily="sans-serif-condensed-medium"
-    android:text="@string/gleice_name"
-    android:textColor="@android:color/black"
-    android:textSize="24sp"
-    android:textStyle="bold"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
 
-<TextView
-    android:id="@+id/textView3"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="153dp"
-    android:layout_marginEnd="155dp"
-    android:fontFamily="sans-serif-condensed-light"
-    android:text="@string/gleice_fun"
-    android:textColor="@android:color/black"
-    android:textStyle="bold"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView2" />
+                <ImageView
+                    android:id="@+id/imageView2"
+                    style="@style/perfil_photo"
+                    android:src="@drawable/gleiceredondo" />
 
-<TextView
-    android:id="@+id/textView17"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="153dp"
-    android:layout_marginTop="220dp"
-    android:layout_marginEnd="155dp"
-    android:layout_marginBottom="60dp"
-    android:fontFamily="serif"
-    android:text="@string/my_sal"
-    android:textColor="@android:color/black"
-    android:textStyle="bold"
-    app:layout_constraintBottom_toTopOf="@+id/textView13"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.538"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@+id/textView2"
-    app:layout_constraintVertical_bias="0.882" />
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/titulo"
+                    android:text="@string/gleice_name" />
 
-<TextView
-    android:id="@+id/textView6"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginStart="155dp"
-    android:layout_marginEnd="155dp"
-    android:layout_marginBottom="32dp"
-    android:fontFamily="serif"
-    android:text="@string/simple_hello"
-    android:textColor="@android:color/black"
-    android:textSize="48sp"
-    app:layout_constraintBottom_toBottomOf="@+id/textView17"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent" />
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/texto_padrao"
+                    android:text="@string/gleice_fun" />
 
-<ImageView
-    android:id="@+id/imageView4"
-    android:layout_width="141dp"
-    android:layout_height="149dp"
-    android:layout_marginStart="130dp"
-    android:layout_marginTop="48dp"
-    android:layout_marginEnd="130dp"
-    android:src="@drawable/gleiceredondo"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    android:contentDescription="@string/do_todo" />
+                <TextView
+                    android:id="@+id/textView17"
+                    style="@style/question"
+                    android:layout_marginTop="@dimen/triple_top_margin"
+                    android:text="@string/my_sal"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+                <TextView
+                    android:id="@+id/textView13"
+                    style="@style/texto_padrao"
+                    android:text="@string/gleice_description"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

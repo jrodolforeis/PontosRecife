@@ -88,5 +88,7 @@
     <string name="a_solicitado">A. Refaça o seu projeto do site, agora como um App (e fazer as adaptações que achar necessárias OU pense num novo contexto).</string>
     <string name="q_requisitos">Q. Quais os requisitos da implementação?</string>
     <string name="a_requisitos">A. Utilizar: Activities, Fragments, Binding, Navegação, SafeArgs, DrawerMenu, ViewModel e Implementar alguma lógica (pode ser simples, como os dos jogos de exemplos GuessTheWord ou Trivia) que armazene algum resultado/valor e realize navegação para outras telas dependendo de uma condição baseada em algum resultado/valor.</string>
+    <string name="q_objetivo">Q. Qual o objetivo do aplicativo?</string>
+    <string name="a_objetivo">A. Além de passar na cadeira, o objetivo é que o site pareça/seja um mockup de um guia turístico, replicando a idéia do site previamente construído, agora, em formato mobile.</string>
     <string name="about_us_title">Conheça nossa equipe</string>
 </resources>

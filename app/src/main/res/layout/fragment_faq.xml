@@ -46,6 +46,12 @@
                 <TextView
                     style="@style/texto_padrao"
                     android:text="@string/a_requisitos" />
+                <TextView
+                    style="@style/question"
+                    android:text="@string/q_objetivo" />
+                <TextView
+                    style="@style/texto_padrao"
+                    android:text="@string/a_objetivo" />
             </LinearLayout>
         </ScrollView>
     </androidx.constraintlayout.widget.ConstraintLayout>

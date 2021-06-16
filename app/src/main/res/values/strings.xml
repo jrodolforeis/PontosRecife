@@ -89,6 +89,8 @@
     <string name="q_requisitos">Q. Quais os requisitos da implementação?</string>
     <string name="a_requisitos">A. Utilizar: Activities, Fragments, Binding, Navegação, SafeArgs, DrawerMenu, ViewModel e Implementar alguma lógica (pode ser simples, como os dos jogos de exemplos GuessTheWord ou Trivia) que armazene algum resultado/valor e realize navegação para outras telas dependendo de uma condição baseada em algum resultado/valor.</string>
     <string name="q_objetivo">Q. Qual o objetivo do aplicativo?</string>
-    <string name="a_objetivo">A. Além de passar na cadeira, o objetivo é que o site pareça/seja um mockup de um guia turístico, replicando a idéia do site previamente construído, agora, em formato mobile.</string>
+    <string name="a_objetivo">A. Além de passar na cadeira, o objetivo é que o aplicativo pareça/seja um mockup de um guia turístico, replicando a idéia do site previamente construído, agora, em formato mobile.</string>
     <string name="about_us_title">Conheça nossa equipe</string>
+    <string name="randomizer_desc">Utilize nosso randomizador para sortear uma atração aleatória, exibindo o nome e uma imagem do local.</string>
+    <string name="randomizer_desc2">Clique no botão \"Gerar\" para sortear um novo local ou clique no botão \"Visitar\" para abrir a página desta atração.</string>
 </resources>

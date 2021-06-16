@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/ScrollView01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/top_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent">
+                <TextView
+                    android:id="@+id/header"
+                    style="@style/link"
+                    android:text="@string/noticias_desc"
+                    android:textSize="@dimen/titulo"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link1"
+                    style="@style/link"
+                    android:text="@string/noticia1"
+                    app:layout_constraintTop_toBottomOf="@id/header"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link2"
+                    style="@style/link"
+                    android:text="@string/noticia2"
+                    app:layout_constraintTop_toBottomOf="@id/link1"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link3"
+                    style="@style/link"
+                    android:text="@string/noticia3"
+                    app:layout_constraintTop_toBottomOf="@id/link2"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link4"
+                    style="@style/link"
+                    android:text="@string/noticia4"
+                    app:layout_constraintTop_toBottomOf="@id/link3"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link5"
+                    style="@style/link"
+                    android:text="@string/noticia5"
+                    app:layout_constraintTop_toBottomOf="@id/link4"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link6"
+                    style="@style/link"
+                    android:text="@string/noticia6"
+                    app:layout_constraintTop_toBottomOf="@id/link5"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link7"
+                    style="@style/link"
+                    android:text="@string/noticia7"
+                    app:layout_constraintTop_toBottomOf="@id/link6"
+                    app:layout_constraintHorizontal_bias="0.5" />
+                <TextView
+                    android:id="@+id/link8"
+                    style="@style/link"
+                    android:text="@string/noticia8"
+                    app:layout_constraintTop_toBottomOf="@id/link7"
+                    app:layout_constraintHorizontal_bias="0.5" />
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

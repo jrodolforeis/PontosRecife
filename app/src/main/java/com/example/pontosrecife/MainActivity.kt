@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         val navController = this.findNavController(R.id.myNavHostFragment)
 
-        val topLevelDestinations = setOf(R.id.titleFragment, R.id.aboutUsFragment)
+        val topLevelDestinations = setOf(R.id.titleFragment, R.id.aboutUsFragment, R.id.noticiasFragment, R.id.randomFragment)
         appBarConfiguration = AppBarConfiguration.Builder(topLevelDestinations)
                 .setOpenableLayout(drawerLayout)
                 .build()

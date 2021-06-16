@@ -123,24 +123,24 @@
             app:destination="@id/marcoIntroFragment" />
     </fragment>
     <fragment
-        android:id="@+id/contatoFragment2"
+        android:id="@+id/contatoFragment"
         android:name="com.example.pontosrecife.ContatoFragment"
-        android:label="ContatoFragment" >
+        android:label="@string/contato">
         <argument
             android:name="tituloMensagem"
-            app:argType="string"
             android:defaultValue="@null"
+            app:argType="string"
             app:nullable="true" />
         <argument
             android:name="TextoMensagem"
+            android:defaultValue="@null"
             app:argType="string"
-            app:nullable="true"
-            android:defaultValue="@null" />
+            app:nullable="true" />
         <argument
             android:name="TipoContato"
+            android:defaultValue="@null"
             app:argType="string"
-            app:nullable="true"
-            android:defaultValue="@null" />
+            app:nullable="true" />
         <action
             android:id="@+id/action_contatoFragment2_to_confirmacaoFragment"
             app:destination="@id/confirmacaoFragment" />
@@ -148,5 +148,58 @@
     <fragment
         android:id="@+id/confirmacaoFragment"
         android:name="com.example.pontosrecife.ConfirmacaoFragment"
-        android:label="ConfirmacaoFragment" />
+        android:label="@string/contato" />
+    <fragment
+        android:id="@+id/randomFragment"
+        android:name="com.example.pontosrecife.RandomFragment"
+        android:label="@string/randomizador" >
+        <action
+            android:id="@+id/action_randomFragment_to_moedaCardFragment"
+            app:destination="@id/moedaCardFragment" />
+        <action
+            android:id="@+id/action_randomFragment_to_praiaCardFragment"
+            app:destination="@id/praiaCardFragment" />
+        <action
+            android:id="@+id/action_randomFragment_to_marcoCardFragment"
+            app:destination="@id/marcoCardFragment" />
+        <action
+            android:id="@+id/action_randomFragment_to_brennandCardFragment"
+            app:destination="@id/brennandCardFragment" />
+        <action
+            android:id="@+id/action_randomFragment_to_centroCardFragment"
+            app:destination="@id/centroCardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noticia1Fragment"
+        android:name="com.example.pontosrecife.Noticia1Fragment"
+        android:label="@string/noticia1" />
+    <fragment
+        android:id="@+id/noticia2Fragment"
+        android:name="com.example.pontosrecife.Noticia2Fragment"
+        android:label="@string/noticia2" />
+    <fragment
+        android:id="@+id/noticia3Fragment"
+        android:name="com.example.pontosrecife.Noticia3Fragment"
+        android:label="@string/noticia3" />
+    <fragment
+        android:id="@+id/noticiaPlaceholderFragment"
+        android:name="com.example.pontosrecife.NoticiaPlaceholderFragment"
+        android:label="@string/noticia_placeholder" />
+    <fragment
+        android:id="@+id/noticiasFragment"
+        android:name="com.example.pontosrecife.NoticiasFragment"
+        android:label="@string/noticias">
+        <action
+            android:id="@+id/action_noticiasFragment_to_noticia1Fragment"
+            app:destination="@id/noticia1Fragment" />
+        <action
+            android:id="@+id/action_noticiasFragment_to_noticia2Fragment"
+            app:destination="@id/noticia2Fragment" />
+        <action
+            android:id="@+id/action_noticiasFragment_to_noticia3Fragment"
+            app:destination="@id/noticia3Fragment" />
+        <action
+            android:id="@+id/action_noticiasFragment_to_noticiaPlaceholderFragment"
+            app:destination="@id/noticiaPlaceholderFragment" />
+    </fragment>
 </navigation>

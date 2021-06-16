@@ -3,6 +3,28 @@
     <string name="inicio">Início</string>
     <string name="explorar">Explorar</string>
     <string name="seguinte">Seguinte</string>
+    <string name="gerar">Gerar</string>
+    <string name="visitar">Visitar</string>
+    <string name="randomizador">Randomizador</string>
+    <string name="noticias">Notícias</string>
+    <string name="noticias_desc">Escolha a notícia que deseja acessar</string>
+    <string name="noticia1">Como sobreviver aos assaltos da cidade</string>
+    <string name="noticia1_title">Como não ser furtado na cidade do Recife</string>
+    <string name="noticia1_sub">Mesmo em época de pandemia, onde o movimento nas ruas é reduzido, é preciso tomar cuidado para não voltar para sua cidade natal sem os seus queridos pertences.</string>
+    <string name="noticia2">Recife, uma bela cidade para se viver</string>
+    <string name="noticia2_sub">Apesar dos pesares, a cidade do Recife com certeza é uma das mais belas do mundo.</string>
+    <string name="noticia3">Sílvio Bandeira ensina lógica de programação em escolas de ensino fundamental</string>
+    <string name="noticia3_sub">O professor, em parceria junto com a Universidade Católica de Pernambuco, deu uma série de aulas explicando os conceitos básicos de algoritmos e de Python em escolas.</string>
+    <string name="noticia4">Sérgio Murilo dá palestra sobre evolução dos computadores no Paço Alfândega</string>
+    <string name="noticia5">Michelle Tenca apresenta projeto de mapeamento da cidade através de drones</string>
+    <string name="noticia6">Como estudar a história do Recife sem quebrar muito a cabeça</string>
+    <string name="noticia7">Casal recifense cria Startup de turismo com sucesso mundial</string>
+    <string name="noticia8">Conheça a MarCoin, a criptomoeda recifense</string>
+    <string name="noticia_placeholder">Notícia Placeholder</string>
+    <string name="noticia_placeholder_title">Página reservada para as notícias placeholder</string>
+    <string name="noticia_placeholder_sub">Afinal, ninguém é de ferro: dá um trabalho danado ter que inventar título e conteúdo pra isso tudo.</string>
+    <string name="noticia_placeholder_txt1">Opa, essa notícia não existe de verdade. Na verdade, nenhuma notícia desse site existe de verdade: é tudo lorem ipsum pra ver como ficaria.</string>
+    <string name="lorem_ipsum">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
     <string name="ler_mais">Ler Mais</string>
     <string name="moeda">Rua da Moeda</string>
     <string name="marco">Marco Zero</string>
@@ -25,26 +47,16 @@
     <string name="rodolfo_fun">BACK-END DEVELOPER</string>
     <string name="rodolfo_name">José Rodolfo</string>
     <string name="joao_description">Pesquisador PIBIC @unicap</string>
-    <string name="joao_name">FRONT-END DEVELOPER</string>
-    <string name="joao_fun">João Tavares</string>
+    <string name="joao_name">João Tavares</string>
+    <string name="joao_fun">FRONT-END DEVELOPER</string>
+    <string name="nome_grupo">Gleice Kelly, José Rodolfo, e João Tavares</string>
     <string name="todo">TODO</string>
-    <string name="large_text">
-
-        Q. Quais tecnologias foram utilizadas para o desenvolvimento do site?
-        A: O site foi desenvolvido utilizando as seguintes tecnologias:
-
-        HTML\n\n
-        CSS\n\n
-        Bootstrap 4 (pra deixar o site bonitinho)
-        JavaScript (pra adicionar comportamentos ao site)
-
-        Q. Qual o objetivo do site?
-        A: Além de passar na cadeira, o objetivo é que o site pareça/seja um mockup de um guia turístico.
-        Ao clicar em cada card se abre um modal, responsável por mostrar informações sobre aquele ponto de maneira resumida. Caso o usuário deseje obter mais informações, dentro do próprio modal existe uma seção com mais referências.
-        Além disso, o usuário pode ver se data na qual ele vai viajar pra Recife é feriado ou não e acompanhar notícias relevantes sobre a cidade.
-
-
-
-    </string>
+    <string name="sobre">Sobre o projeto</string>
+    <string name="q_descricao">Q. O que é?</string>
+    <string name="a_descricao">A. Projeto android da disciplina \"Programação Web-Mobile\" da UNICAP, sob orientação do professor Márcio Bueno.</string>
+    <string name="q_solicitado">Q. O que foi solicitado?</string>
+    <string name="a_solicitado">A. Refaça o seu projeto do site, agora como um App (e fazer as adaptações que achar necessárias OU pense num novo contexto).</string>
+    <string name="q_requisitos">Q. Quais os requisitos da implementação?</string>
+    <string name="a_requisitos">A. Utilizar: Activities, Fragments, Binding, Navegação, SafeArgs, DrawerMenu, ViewModel e Implementar alguma lógica (pode ser simples, como os dos jogos de exemplos GuessTheWord ou Trivia) que armazene algum resultado/valor e realize navegação para outras telas dependendo de uma condição baseada em algum resultado/valor.</string>
     <string name="about_us_title">Conheça nossa equipe</string>
 </resources>

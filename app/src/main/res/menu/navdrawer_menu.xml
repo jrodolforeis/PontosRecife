@@ -12,8 +12,12 @@
             android:title="@string/about" />
         <!-- android:icon="@drawable/villain_icon_15" -->
         <item
-            android:id="@+id/filmesFragment"
-            android:title="@string/placeholder" />
+            android:id="@+id/noticiasFragment"
+            android:title="@string/noticias" />
+        <!-- android:icon="@drawable/ic_movie" -->
+        <item
+            android:id="@+id/randomFragment"
+            android:title="@string/randomizador" />
             <!-- android:icon="@drawable/ic_movie" -->
     </group>
 </menu>

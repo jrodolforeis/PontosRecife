@@ -1,29 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".FaqFragment">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
 
-    <ScrollView
-        android:id="@+id/ScrollView01"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
-            android:id="@+id/LinearLayout01"
+        <ScrollView
+            android:id="@+id/ScrollView01"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/top_margin"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:id="@+id/LinearLayout01"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="@dimen/horizontal_margin"
-                android:layout_marginTop="@dimen/top_margin"
-                android:textSize="@dimen/texto_corrido"
-                android:text="@string/large_text" />
-        </LinearLayout>
-    </ScrollView>
-</androidx.core.widget.NestedScrollView>
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/question"
+                    android:textSize="@dimen/titulo"
+                    android:text="@string/sobre" />
+                <TextView
+                    style="@style/question"
+                    android:text="@string/q_descricao" />
+                <TextView
+                    style="@style/link"
+                    android:text="@string/a_descricao" />
+                <TextView
+                    style="@style/question"
+                    android:text="@string/q_solicitado" />
+                <TextView
+                    style="@style/link"
+                    android:text="@string/a_solicitado" />
+                <TextView
+                    style="@style/question"
+                    android:text="@string/q_requisitos" />
+                <TextView
+                    style="@style/link"
+                    android:text="@string/a_requisitos" />
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -30,13 +30,13 @@
 
                 <TextView
                     android:id="@+id/header"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/noticia_placeholder_title"
                     android:textSize="@dimen/titulo"
                     app:layout_constraintHorizontal_bias="0.5" />
                 <TextView
                     android:id="@+id/sub"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/noticia_placeholder_sub"
                     app:layout_constraintHorizontal_bias="0.5" />
 
@@ -53,7 +53,7 @@
                         android:src="@drawable/gleiceredondo"/>
                     <TextView
                         android:id="@+id/autor1"
-                        style="@style/link"
+                        style="@style/texto_padrao"
                         android:layout_margin="0dp"
                         android:text="@string/gleice_name"/>
                 </LinearLayout>
@@ -70,7 +70,7 @@
                         android:src="@drawable/rodolforedondo"/>
                     <TextView
                         android:id="@+id/autor2"
-                        style="@style/link"
+                        style="@style/texto_padrao"
                         android:layout_margin="0dp"
                         android:text="@string/rodolfo_name"/>
                 </LinearLayout>
@@ -87,7 +87,7 @@
                         android:src="@drawable/joaoredondo"/>
                     <TextView
                         android:id="@+id/autor3"
-                        style="@style/link"
+                        style="@style/texto_padrao"
                         android:layout_margin="0dp"
                         android:text="@string/joao_name"/>
                 </LinearLayout>
@@ -97,7 +97,7 @@
                     android:src="@drawable/noticia_placeholder" />
                 <TextView
                     android:id="@+id/texto"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/noticia_placeholder_txt1"
                     app:layout_constraintHorizontal_bias="0.5" />
 

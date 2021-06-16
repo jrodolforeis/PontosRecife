@@ -15,7 +15,6 @@ private const val ARG_PARAM2 = "param2"
  * Classe responsável pelo comportamento do fragment_title
  */
 class MoedaCardFragment : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

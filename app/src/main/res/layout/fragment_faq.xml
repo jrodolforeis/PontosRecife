@@ -33,19 +33,19 @@
                     style="@style/question"
                     android:text="@string/q_descricao" />
                 <TextView
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/a_descricao" />
                 <TextView
                     style="@style/question"
                     android:text="@string/q_solicitado" />
                 <TextView
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/a_solicitado" />
                 <TextView
                     style="@style/question"
                     android:text="@string/q_requisitos" />
                 <TextView
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/a_requisitos" />
             </LinearLayout>
         </ScrollView>

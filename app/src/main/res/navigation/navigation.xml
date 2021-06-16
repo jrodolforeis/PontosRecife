@@ -50,7 +50,7 @@
     <fragment
         android:id="@+id/brennandIntroFragment"
         android:name="com.example.pontosrecife.BrennandIntroFragment"
-        android:label="@string/brennand">
+        android:label="@string/pontos_turisticos">
         <action
             android:id="@+id/action_brennandIntroFragment_to_brennandCardFragment"
             app:destination="@id/brennandCardFragment" />
@@ -69,7 +69,7 @@
     <fragment
         android:id="@+id/centroIntroFragment"
         android:name="com.example.pontosrecife.CentroIntroFragment"
-        android:label="@string/centro">
+        android:label="@string/pontos_turisticos">
         <action
             android:id="@+id/action_centroIntroFragment_to_centroCardFragment"
             app:destination="@id/centroCardFragment" />
@@ -84,7 +84,7 @@
     <fragment
         android:id="@+id/marcoIntroFragment"
         android:name="com.example.pontosrecife.MarcoIntroFragment"
-        android:label="@string/marco">
+        android:label="@string/pontos_turisticos">
         <action
             android:id="@+id/action_marcoIntroFragment_to_marcoCardFragment"
             app:destination="@id/marcoCardFragment" />
@@ -99,7 +99,7 @@
     <fragment
         android:id="@+id/moedaIntroFragment"
         android:name="com.example.pontosrecife.MoedaIntroFragment"
-        android:label="@string/moeda">
+        android:label="@string/pontos_turisticos">
         <action
             android:id="@+id/action_moedaIntroFragment_to_moedaCardFragment"
             app:destination="@id/moedaCardFragment" />
@@ -114,7 +114,7 @@
     <fragment
         android:id="@+id/praiaIntroFragment"
         android:name="com.example.pontosrecife.PraiaIntroFragment"
-        android:label="@string/praia">
+        android:label="@string/pontos_turisticos">
         <action
             android:id="@+id/action_praiaIntroFragment_to_praiaCardFragment"
             app:destination="@id/praiaCardFragment" />

@@ -30,13 +30,13 @@
 
                 <TextView
                     android:id="@+id/header"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/noticia1_title"
                     android:textSize="@dimen/titulo"
                     app:layout_constraintHorizontal_bias="0.5" />
                 <TextView
                     android:id="@+id/sub"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/noticia1_sub"
                     app:layout_constraintHorizontal_bias="0.5" />
 
@@ -53,7 +53,7 @@
                         android:src="@drawable/joaoredondo"/>
                     <TextView
                         android:id="@+id/autor"
-                        style="@style/link"
+                        style="@style/texto_padrao"
                         android:layout_margin="0dp"
                         android:text="@string/joao_name"/>
                 </LinearLayout>
@@ -64,17 +64,17 @@
                     android:src="@drawable/noticia1" />
                 <TextView
                     android:id="@+id/texto"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/lorem_ipsum"
                     app:layout_constraintHorizontal_bias="0.5" />
                 <TextView
                     android:id="@+id/texto2"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/lorem_ipsum"
                     app:layout_constraintHorizontal_bias="0.5" />
                 <TextView
                     android:id="@+id/texto3"
-                    style="@style/link"
+                    style="@style/texto_padrao"
                     android:text="@string/lorem_ipsum"
                     app:layout_constraintHorizontal_bias="0.5" />
 

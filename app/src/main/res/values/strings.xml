@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">PontosRecife</string>
+    <string name="app_name">Pontos Recife</string>
     <string name="inicio">Início</string>
+    <string name="recife_desc">A cidade do Recife possui uma admirável coleção de arte mural espalhada por seus espaços públicos. É um acervo extraordinário que transforma a cidade em uma exposição permanente de grandes artistas do Brasil e do mundo.</string>
     <string name="explorar">Explorar</string>
     <string name="seguinte">Seguinte</string>
     <string name="gerar">Gerar</string>
@@ -26,11 +27,40 @@
     <string name="noticia_placeholder_txt1">Opa, essa notícia não existe de verdade. Na verdade, nenhuma notícia desse site existe de verdade: é tudo lorem ipsum pra ver como ficaria.</string>
     <string name="lorem_ipsum">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
     <string name="ler_mais">Ler Mais</string>
+    <string name="pontos_turisticos">Pontos Turísticos</string>
     <string name="moeda">Rua da Moeda</string>
+    <string name="moeda_intro">Localizada próxima ao Marco Zero, no bairro do Recife Antigo, dispõe de vários bares e até bandas ao ar livre para aproveitar a noite.</string>
+    <string name="moeda_sobre">Sobre a Rua da Moeda</string>
+    <string name="moeda_p1">A Rua da Moeda é uma das mais conhecidas do Recife Antigo, popular entre os jovens por aglomerar vários bares legais na mesma região. Para quem quer fazer um happy hour ou encontrar os amigos, os bares da rua são boas opções.</string>
+    <string name="moeda_p2">O lugar também recebe apresentações musicais, inclusive nas prévias do Carnaval (via Guia Melhores Destinos).</string>
+    <string name="mais_info">Mais informações:</string>
+    <string name="moeda_p4"><a href="https://pt.foursquare.com/v/rua-da-moeda/4d4c66a8385f8eec7d69cc14">Foursquare</a></string>
+    <string name="moeda_p5"><a href="http://www.pernambuco.com/turismo/rnpm/ruadamoeda/">Pernambuco.com</a></string>
+    <string name="mais_img">Veja mais imagens do local:</string>
     <string name="marco">Marco Zero</string>
+    <string name="marco_intro">Ponto turístico histórico da cidade do Recife, conta com diversas atrações tanto para turistas como para moradores da cidade.</string>
+    <string name="marco_sobre">Sobre o Marco Zero</string>
+    <string name="marco_p1">A Praça Rio Branco, também conhecida como Marco Zero, é um espaço público localizado no bairro do Recife da cidade homônima, capital de Pernambuco.</string>
+    <string name="marco_p2">O local fica próximo ao Porto do Recife e abriga o Marco Zero da cidade do Recife (instalado em 31 de janeiro de 1938, pelo Automóvel Clube de Pernambuco). É deste marco que são feitas todas as medidas oficiais de distâncias rodoviárias locais. Oficialmente denominada de Praça Barão do Rio Branco, fica localizada na Av. Alfredo Lisboa conectada às ruas Marquês de Olinda, Rio Branco e Barbosa Lima.</string>
+    <string name="marco_p3">Além do Marco Zero, existe na praça um busto do Barão do Rio Branco, escultura do francês Félix Charpeutier, colocada ali em 1917, em bronze com uma altura de 2,5m e foi inaugurada, sob um pedestal em pedra de 4,20m, esculpido por Corbiniano Vilaça, em 19 de agosto do mesmo ano. Dando a obra uma altura de 7m.</string>
+    <string name="marco_p4">O norte da praça é banhado pelo estuário do porto do Recife, formado pelo Rio Capibaribe. O estuário é protegido por um dique natural, local em que se encontra o Parque das Esculturas com a famosa obra Coluna de Cristal de 32 metros de altura e inspirada em uma flor descoberta por Burle Marx e varias outras obras em cerâmica do artista Francisco Brennand. No dique encontra-se também a Casa de Banhos, que não existe mais, e o Farol do Recife. O dique tem uma extensão 4km de comprimento e começa no bairro de Brasília Teimosa. (via Wikipedia).</string>
     <string name="praia">Praia de Boa Viagem</string>
+    <string name="praia_intro">A praia da cidade. Vários quilômetros para caminhada acompanham os banhistas junto com as barracas que vendem água de coco.</string>
+    <string name="praia_sobre">Sobre a praia de Boa Viagem</string>
+    <string name="praia_p1">A Praia de Boa Viagem é a mais famosa do Recife e tem ótima estrutura para o turista. O lugar é bastante movimentado; quando o tempo está favorável, é comum ver banhistas e pessoas praticando exercícios físicos.</string>
+    <string name="praia_p2">Essa praia possui águas mornas e esverdeadas, proporcionando não apenas um bom mergulho no mar como também um excelente plano de fundo aos olhos. A faixa de areia é longa em vários trechos da orla, onde é comum admirar coqueiros. No calçadão ficam quiosques que vendem bebidas e, nas areias, vendedores ambulantes e barracas (essas com preços mais altos que os dos quiosques).</string>
+    <string name="praia_p3">Boa Viagem é uma praia de ondas relativamente fracas porque a orla está protegida por um grande arrecife. Na maré baixa formam-se várias piscinas naturais, especialmente na altura do hotel Golden Tulip.</string>
+    <string name="praia_p4">Há várias placas na praia alertando para o risco de ataque de tubarões. No Recife ocorrem ataques de tubarões, por isso é importante tomar alguns cuidados, como evitar o mergulho em horários de maré alta, evitar o mergulho se estiver com sangramentos, não usar objetos brilhantes ao entrar no mar e não se afastar muito da areia, entre outros (via Guia Melhores Nordestinos).</string>
     <string name="brennand">Instituto Ricardo Brennand</string>
+    <string name="brennand_intro">Um museu que contém uma incrível coleção e é um ponto que até para visitar sozinho é interessante.</string>
+    <string name="brennand_sobre">Sobre o Instituto Brennand</string>
+    <string name="brennand_p1">O Instituto Ricardo Brennand (IRB), também conhecido como Castelo de Brennand, é uma instituição cultural brasileira sem fins lucrativos localizada na cidade do Recife, capital do estado de Pernambuco. Foi eleito o melhor museu da América do Sul pelo site de v iagens TripAdvisor (via Wikipedia).</string>
     <string name="centro">Centro de Artesanato de Pernambuco</string>
+    <string name="centro_intro">Parada obrigatória no Recife, o Centro de Artesanato de Pernambuco chama atenção dos turistas e recifenses por diversos motivos.</string>
+    <string name="centro_sobre">Sobre o Centro de Artesanato de Pernambuco (Recife)</string>
+    <string name="centro_p1">Parada obrigatória no Recife, o Centro de Artesanato de Pernambuco - Roberto Lessa chama atenção dos turistas e recifenses por diversos motivos, como diversidade artesanal, organização, corredores amplos, vista privilegiada para o mar e preços que cabem no bolso de todos. Há quase cinco anos funcionando em frente à Praça do Marco Zero, a loja conta com mais de 25 mil peças à venda, todas elas produzidas por quase 1,4 mil artesãos de todas as regiões do Estado.</string>
+    <string name="centro_p2">Com uma área de mais de 2,5 mil m², o espaço traz ambientes decorados para que o visitante possa visualizar a utilização de peças artesanais em espaços como sala de estar, sala de jantar, quarto, entre outros, através de um olhar contemporâneo. A loja tem artesanato das mais diversas matérias-primas, como cerâmica, madeira, vidro, metal, renda, têxtil e outros.</string>
+    <string name="centro_p3">O Centro é mais uma ação integrada do Governo do Estado, através da Diretoria de Artesanato da Agência de Desenvolvimento Econômico de Pernambuco (via Artesanato de Pernambuco).</string>
     <string name="placeholder">missingContent</string>
     <string name="inicio_desc">Conheça alguns dos pontos turísticos mais famosos da cidade</string>
     <string name="about">About Us</string>

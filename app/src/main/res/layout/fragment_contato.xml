@@ -7,6 +7,74 @@
         android:id="@+id/titleConstraint"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="127dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginBottom="156dp"
+            android:text="@string/button_proximo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine2" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="295dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="140dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/nome_contato"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editTextTextMultiLine2"
+            android:layout_width="302dp"
+            android:layout_height="104dp"
+            android:layout_marginTop="56dp"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="295dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="60dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/tipo_contato"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.459"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="217dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="43dp"
+            android:layout_marginEnd="131dp"
+            android:layout_marginBottom="33dp"
+            android:text="@string/titulo_contato"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </layout>

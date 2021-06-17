@@ -91,4 +91,11 @@
     <string name="q_objetivo">Q. Qual o objetivo do aplicativo?</string>
     <string name="a_objetivo">A. Além de passar na cadeira, o objetivo é que o site pareça/seja um mockup de um guia turístico, replicando a idéia do site previamente construído, agora, em formato mobile.</string>
     <string name="about_us_title">Conheça nossa equipe</string>
+    <string name="tipo_contato">Insira o motivo do contato</string>
+    <string name="nome_contato">Insira o seu nome</string>
+    <string name="titulo_contato">Fale conosco:</string>
+    <string name="button_proximo">Próximo</string>
+    <string name="confirmation_title">Aqui estão seus dados:</string>
+    <string name="confirmation_button">Prosseguir</string>
+    <string name="finalizarTexto">Obrigado pelo seu contato! Nossa equipe altamente treinada vai ver e te diz!</string>
 </resources>

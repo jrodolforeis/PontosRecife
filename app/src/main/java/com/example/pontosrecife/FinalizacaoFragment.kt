@@ -5,29 +5,27 @@ import android.view.*
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.navArgs
+import android.view.*
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.NavigationUI
-import com.example.pontosrecife.databinding.FragmentContatoBinding
+import com.example.pontosrecife.databinding.FragmentConfirmacaoBinding
+import com.example.pontosrecife.databinding.FragmentFinalizacaoBinding
 
-class ContatoFragment : Fragment() {
+class FinalizacaoFragment : Fragment() {
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
+        inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
-        val binding = DataBindingUtil.inflate<FragmentContatoBinding>(
+        val binding = DataBindingUtil.inflate<FragmentFinalizacaoBinding>(
             inflater,
-            R.layout.fragment_contato, container, false
+            R.layout.fragment_finalizacao, container, false
         )
 
-        binding.button2.setOnClickListener {
-            val nomeUsuario = binding.editTextTextPersonName.text.toString()
-            val motivoContato = binding.editTextTextPersonName2.text.toString()
-            val mensagemContato = binding.editTextTextMultiLine2.text.toString()
-            val action = ContatoFragmentDirections.actionContatoFragment2ToConfirmacaoFragment(nomeUsuario, motivoContato, mensagemContato)
-            findNavController().navigate(action)
+        binding.buttonFinalizar.setOnClickListener { view: View ->
+            view.findNavController().navigate(R.id.action_finalizacaoFragment_to_titleFragment2)
         }
-        setHasOptionsMenu(true)
+        //setHasOptionsMenu(true)
         return binding.root
     }
 
@@ -40,4 +38,6 @@ class ContatoFragment : Fragment() {
         return NavigationUI.onNavDestinationSelected(item,requireView().findNavController())
                 ||super.onOptionsItemSelected(item)
     }
+
+
 }

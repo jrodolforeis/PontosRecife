@@ -126,29 +126,31 @@
         android:id="@+id/contatoFragment"
         android:name="com.example.pontosrecife.ContatoFragment"
         android:label="@string/contato">
-        <argument
-            android:name="tituloMensagem"
-            android:defaultValue="@null"
-            app:argType="string"
-            app:nullable="true" />
-        <argument
-            android:name="TextoMensagem"
-            android:defaultValue="@null"
-            app:argType="string"
-            app:nullable="true" />
-        <argument
-            android:name="TipoContato"
-            android:defaultValue="@null"
-            app:argType="string"
-            app:nullable="true" />
         <action
             android:id="@+id/action_contatoFragment2_to_confirmacaoFragment"
-            app:destination="@id/confirmacaoFragment" />
+            app:destination="@id/confirmacaoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
     </fragment>
     <fragment
         android:id="@+id/confirmacaoFragment"
         android:name="com.example.pontosrecife.ConfirmacaoFragment"
-        android:label="@string/contato" />
+        android:label="@string/contato" >
+        <argument
+            android:name="nomeUsuario"
+            app:argType="string" />
+        <argument
+            android:name="tipoContato"
+            app:argType="string" />
+        <argument
+            android:name="mensagemContato"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_confirmacaoFragment_to_finalizacaoFragment"
+            app:destination="@id/finalizacaoFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
     <fragment
         android:id="@+id/randomFragment"
         android:name="com.example.pontosrecife.RandomFragment"
@@ -201,5 +203,15 @@
         <action
             android:id="@+id/action_noticiasFragment_to_noticiaPlaceholderFragment"
             app:destination="@id/noticiaPlaceholderFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/finalizacaoFragment"
+        android:name="com.example.pontosrecife.FinalizacaoFragment"
+        android:label="FinalizacaoFragment" >
+        <action
+            android:id="@+id/action_finalizacaoFragment_to_titleFragment2"
+            app:destination="@id/titleFragment"
+            app:popUpTo="@id/titleFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 </navigation>

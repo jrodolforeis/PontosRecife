@@ -13,7 +13,8 @@
             android:id="@+id/ScrollView01"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toTopOf="@id/acessar_button"
+            android:layout_marginBottom="@dimen/top_margin"
+            app:layout_constraintBottom_toTopOf="@id/accessButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -22,31 +23,33 @@
                 android:id="@+id/LinearLayout01"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical"
+                android:gravity="center_horizontal"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent">
 
+                <ImageView
+                    android:id="@+id/word_img"
+                    style="@style/img_banner"
+                    tools:src="@drawable/noticia_placeholder" />
+
                 <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginHorizontal="@dimen/horizontal_margin"
-                    android:text="@string/inicio_desc"
-                    android:textSize="@dimen/titulo"
-                    android:textAlignment="center"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintVertical_bias="1.0"
-                    tools:visibility="visible" />
+                    android:id="@+id/word_text"
+                    style="@style/titulo"
+                    tools:text="@string/placeholder" />
+
+                <TextView
+                    style="@style/texto_padrao"
+                    android:text="@string/randomizer_desc"/>
+                <TextView
+                    style="@style/texto_padrao"
+                    android:text="@string/randomizer_desc2"/>
 
             </LinearLayout>
         </ScrollView>
         <Button
-            android:id="@+id/acessar_button"
+            android:id="@+id/accessButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/horizontal_margin"
@@ -56,11 +59,11 @@
             android:paddingEnd="@dimen/button_padding"
             android:text="@string/visitar"
             android:textSize="@dimen/button_text_size"
-            app:layout_constraintBottom_toTopOf="@id/button"
+            app:layout_constraintBottom_toTopOf="@id/generateButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
         <Button
-            android:id="@+id/button"
+            android:id="@+id/generateButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/horizontal_margin"

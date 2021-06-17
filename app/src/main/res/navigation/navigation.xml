@@ -149,7 +149,8 @@
             android:id="@+id/action_confirmacaoFragment_to_finalizacaoFragment"
             app:destination="@id/finalizacaoFragment"
             app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_pop_exit_anim" />
+            app:exitAnim="@anim/nav_default_pop_exit_anim"
+            app:popUpTo="@id/finalizacaoFragment" />
     </fragment>
     <fragment
         android:id="@+id/randomFragment"

@@ -13,7 +13,7 @@ class GleiceFrament : Fragment() {
         fun newInstance() = GleiceFrament()
     }
 
-    private lateinit var viewModel: GleiceViewModel
+    //private lateinit var viewModel: GleiceViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -22,13 +22,13 @@ class GleiceFrament : Fragment() {
         setHasOptionsMenu(true)
         return inflater.inflate(R.layout.fragment_gleice, container, false)
     }
-
+/*
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         viewModel = ViewModelProvider(this).get(GleiceViewModel::class.java)
         // TODO: Use the ViewModel
     }
-
+*/
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
         inflater.inflate(R.menu.options_menu, menu)

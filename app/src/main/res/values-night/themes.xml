@@ -2,15 +2,17 @@
     <!-- Base application theme. -->
     <style name="Theme.PontosRecife" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blueLight</item>
+        <item name="colorPrimary">@color/petrol_blue</item>
         <item name="colorPrimaryVariant">@color/white</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/blueSuperLight</item>
-        <item name="colorSecondaryVariant">@color/blueIntense</item>
+        <item name="colorSecondary">@color/petrol_blue</item>
+        <item name="colorSecondaryVariant">@color/petrol_blue</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnSecondary</item>
         <!-- Customize your theme here. -->
+        <item name="start_header_image">@drawable/recife_noite</item>
+        <item name="drawer_header_image">@drawable/recife_dia</item>
     </style>
 </resources>

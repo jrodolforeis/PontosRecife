@@ -37,7 +37,7 @@
                 <ImageView
                     android:id="@+id/banner"
                     style="@style/main_banner"
-                    android:src="@drawable/imagem_banner" />
+                    android:src="?attr/start_header_image" />
 
                 <TextView
                     style="@style/texto_padrao"

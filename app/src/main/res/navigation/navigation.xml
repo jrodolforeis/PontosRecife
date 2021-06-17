@@ -75,7 +75,8 @@
             app:destination="@id/centroCardFragment" />
         <action
             android:id="@+id/action_centroIntroFragment_to_titleFragment"
-            app:destination="@id/titleFragment" />
+            app:destination="@id/titleFragment"
+            app:popUpTo="@id/titleFragment" />
     </fragment>
     <fragment
         android:id="@+id/marcoCardFragment"
@@ -208,11 +209,11 @@
     <fragment
         android:id="@+id/finalizacaoFragment"
         android:name="com.example.pontosrecife.FinalizacaoFragment"
-        android:label="FinalizacaoFragment" >
+        android:label="@string/enviado">
         <action
             android:id="@+id/action_finalizacaoFragment_to_titleFragment2"
             app:destination="@id/titleFragment"
             app:popUpTo="@id/titleFragment"
-            app:popUpToInclusive="true" />
+            app:popUpToInclusive="false" />
     </fragment>
 </navigation>

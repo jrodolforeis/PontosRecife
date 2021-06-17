@@ -95,9 +95,17 @@
     <string name="nome_contato">Insira o seu nome</string>
     <string name="titulo_contato">Fale conosco:</string>
     <string name="button_proximo">Próximo</string>
-    <string name="confirmation_title">Aqui estão seus dados:</string>
-    <string name="confirmation_button">Prosseguir</string>
-    <string name="finalizarTexto">Obrigado pelo seu contato! Nossa equipe altamente treinada vai ver e te diz!</string>
+    <string name="confirmation_title">Confira os dados inseridos</string>
+    <string name="confirmation_button">Enviar</string>
+    <string name="finalizarTexto">Obrigado pelo seu contato! Nossa equipe altamente treinada receberá seu feedback de braços abertos!</string>
     <string name="randomizer_desc">Utilize nosso randomizador para sortear uma atração aleatória, exibindo o nome e uma imagem do local.</string>
     <string name="randomizer_desc2">Clique no botão \"Gerar\" para sortear um novo local ou clique no botão \"Visitar\" para abrir a página desta atração.</string>
+    <string name="username">Username</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="contato_motivo">Assunto</string>
+    <string name="contato_mensagem">Mensagem</string>
+    <string name="contato_nome">Nome</string>
+    <string name="contato_desc">Insira os dados para nos enviar uma mensagem</string>
+    <string name="enviado">Enviado</string>
 </resources>

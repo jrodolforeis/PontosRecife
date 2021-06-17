@@ -11,6 +11,13 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="petrol_blue">#006385</color>
+    <color name="sky_blue">#00A4DB</color>
+    <color name="light_sky_blue">#75bffa</color>
+    <color name="bg_gray">#333333</color>
+    <color name="deepskyblue">#00bfff</color>
+
 </resources>
 
 

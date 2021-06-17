@@ -56,6 +56,7 @@ dependencies {
     implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
     implementation "androidx.multidex:multidex:$multidex_version"
+    implementation "android.arch.navigation:navigation-fragment-ktx:1.0.0"
 
 }
 

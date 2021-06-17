@@ -5,19 +5,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/titleFragment"
-            android:title="@string/inicio" />
-        <!-- android:icon="@drawable/ic_home" -->
+            android:title="@string/inicio"
+            android:icon="@drawable/ic_home" />
         <item
             android:id="@+id/aboutUsFragment"
-            android:title="@string/about" />
-        <!-- android:icon="@drawable/villain_icon_15" -->
+            android:title="@string/about"
+            android:icon="@drawable/ic_group"/>
         <item
             android:id="@+id/noticiasFragment"
-            android:title="@string/noticias" />
-        <!-- android:icon="@drawable/ic_movie" -->
+            android:title="@string/noticias"
+            android:icon="@drawable/ic_news"/>
+
         <item
             android:id="@+id/randomFragment"
-            android:title="@string/randomizador" />
-            <!-- android:icon="@drawable/ic_movie" -->
+            android:title="@string/randomizador"
+            android:icon="@drawable/ic_help"/>
     </group>
 </menu>

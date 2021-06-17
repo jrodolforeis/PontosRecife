@@ -15,6 +15,7 @@ import com.example.pontosrecife.databinding.FragmentConfirmacaoBinding
 class ConfirmacaoFragment : Fragment() {
 
     private val args: ConfirmacaoFragmentArgs by navArgs()
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View? {
@@ -30,13 +31,12 @@ class ConfirmacaoFragment : Fragment() {
         binding.buttonConfirmation.setOnClickListener {view: View ->
             view.findNavController().navigate(R.id.action_confirmacaoFragment_to_finalizacaoFragment)
             val text = "Mensagem enviada"
-            val duration = Toast.LENGTH_LONG
+            val duration = Toast.LENGTH_SHORT
 
             val toast = Toast.makeText(activity, text, duration)
             toast.show()
         }
 
-        setHasOptionsMenu(true)
         return binding.root
     }
 

@@ -58,7 +58,7 @@
         <item name="android:layout_marginStart">@dimen/horizontal_margin</item>
         <item name="android:layout_marginEnd">@dimen/horizontal_margin</item>
         <item name="android:layout_width">match_parent</item>
-        <item name="android:scaleType">fitXY</item>
+        <item name="android:scaleType">fitCenter</item>
         <item name="android:layout_height">250dp</item>
     </style>
     <style name="perfil_img_noticia">
@@ -72,13 +72,32 @@
         <item name="android:layout_height">@dimen/img_perfil_height</item>
         <item name="android:layout_marginTop">@dimen/top_margin</item>
         <item name="android:scaleType">fitXY</item>
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@color/transparent</item>
     </style>
     <style name="img_button">
         <item name="android:layout_width">@dimen/img_button_width</item>
         <item name="android:layout_height">@dimen/img_button_height</item>
         <item name="android:layout_marginTop">@dimen/top_margin</item>
         <item name="android:scaleType">fitXY</item>
-        <item name="android:background">@color/white</item>
+        <item name="android:background">@color/transparent</item>
     </style>
+    <style name="input_single_line">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textPersonName</item>
+    </style>
+    <style name="input_multi_line">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:gravity">start|top</item>
+    </style>
+    <declare-styleable name="customAttrs">
+        <attr name="start_header_image" format="reference" />
+        <attr name="drawer_header_image" format="reference" />
+    </declare-styleable>
 </resources>
